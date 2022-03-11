@@ -61,21 +61,20 @@ const createPost = (post) => {
   const div = document.createElement("article");
   div.classList.add("post");
   div.innerHTML = `
-              <div class="post__header">
-                <div class="post__profile">
-                  <a
-                    href="https://github.com/ProgrammingHero1"
-                    target="_blank"
-                    class="post__avatar"
-                  >
-                    <img src="${userImage}" alt="User Picture" />
-                  </a>
-                  <a href="#" class="post__user">phero</a>
-                </div>
+<div class="post__header">
+  <div class="post__profile">
+   <a
+ href="https://github.com/ProgrammingHero1"
+  target="_blank"
+     class="post__avatar">
+    <img src="${userImage}" alt="User Picture" />
+ </a>
+ <a href="#" class="post__user">phero</a>
+    </div>
 
-                <button class="post__more-options">
-                  <i class="fa-solid fa-ellipsis"></i>
-                </button>
+ <button class="post__more-options">
+     <i class="fa-solid fa-ellipsis"></i>
+    </button>
               </div>
 
               <div class="post__content">
